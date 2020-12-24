@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+  <link rel="stylesheet" href="style.css">  
+  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<script>/*
+  function myfunction() {    
+    let drop = document.getElementsByTagName('i');
+    if (drop.style.display == 'none') {
+      drop.style.display == 'block';
+    } else {
+      drop.style.display == 'none'
+    }
+  }*/
+  let tag = document.getElementsByTagName('i');
+  console.log(tag);
+  let msg = document.getElementsByClassName('hide');
+  console.log(msg);
+  function myfunction(){
+  if (msg.style.display == 'none') {
+      drop.style.display == 'block';
+    } else {
+      msg.style.display == 'none'
+    }
+  }
+</script>
+</head>
+<body>
+  <div id="box">
+    <div class="image">
+      <img class="img1" src="images/illustration-box-desktop.svg" alt="">
+      <img class="img2" src="images//illustration-woman-online-desktop.svg" alt="">
+      <img class="img3" src="images/illustration-woman-online-mobile.svg" alt="">
+    </div>
+    <div class="container">
+      <h2>FAQ</h2>
+        <p class="show">How many team members can I invite? &nbsp; 
+          <i class="fa fa-chevron-down" aria-hidden="true" onclick="myfunction()"  ></i>
+        </p>
+    <p class="hide" >You can invite up to 2 additional users on the Free plan. There is no limit on 
+    team members for the Premium plan.</p>
+
+    <p class="show">What is the maximum file upload size?  &nbsp; 
+    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </p>
+  
+    <p class="hide">No more than 2GB. All files in your account must fit your allotted storage space.
+      &nbsp;  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </p>
+
+    <p class="show"> How do I reset my password? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </p>
+    <p class="hide"> “Forgot password” from the login page or “Change password” from your profile page.
+    A reset link will be emailed to you.
+  
+    </p>
+
+    <p class="show">Can I cancel my subscription? &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   
+    <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </p>
+    <p class="hide"> Yes! Send us a message and we’ll process your request no questions asked.
+    
+    </p>
+
+    <p class="show"> Do you provide additional support? &nbsp; 
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+    </p>
+      <p class="hide">  Chat and email support is available 24/7. Phone lines are open during normal business hours</p>
+      </div>
+    </div>
+    <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Amarachi</a>.-->
+    </div>
+  </body>
+</html>
